@@ -17,9 +17,8 @@ class ViewController: UIViewController {
         let sw = UISwitch(frame: CGRect(x: 20, y: 20, width: 100, height: 100))
         view.addSubview(sw)
         
-        let control = PassCardView(center: CGPoint(x: 200, y: UIScreen.mainScreen().bounds.width / 2.0))
+        let control = PassCardView(center: CGPoint(x: UIScreen.mainScreen().bounds.width / 2, y: 300))
         view.addSubview(control)
-        control.center = CGPoint(x: UIScreen.mainScreen().bounds.width / 2, y: 300)
         control.becomeFirstResponder()
         
         control.passwordChangeBlock = {

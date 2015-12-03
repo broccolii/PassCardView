@@ -63,6 +63,7 @@ class PassCardView: UIControl {
     
     init(center: CGPoint) {
         super.init(frame: CGRect(x: 0, y: 0, width: viewWidth, height: viewHeight))
+        self.center = center
         addSubLayers()
     }
     
