@@ -36,7 +36,7 @@ class PassCardView: UIControl {
         var arr = [CALayer]()
         for i in 0..<6 {
             let layer = CALayer()
-            layer.bounds = CGRect(x: 0, y: 0, width: self.bounds.width / 6.0 * 3.0 / 4.0, height: 4)
+            layer.bounds = CGRect(x: 0, y: 0, width: 20, height: 3)
             layer.backgroundColor = UIColor.blackColor().CGColor
             layer.anchorPoint = CGPoint(x: 0.5, y: 0.5)
             layer.position = self.centerPointsArr[i]
@@ -51,6 +51,7 @@ class PassCardView: UIControl {
             let layer = CALayer()
             layer.bounds = CGRect(x: 0, y: 0, width: 8, height: 8)
             layer.cornerRadius = 4
+            layer.allowsEdgeAntialiasing = true
             layer.anchorPoint = CGPoint(x: 0.5, y: 0.5)
             layer.backgroundColor = UIColor.blackColor().CGColor
             layer.position = self.centerPointsArr[i]
@@ -68,7 +69,7 @@ class PassCardView: UIControl {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-  
+    
     private func addSubLayers() {
         for line in linesArr {
             layer.addSublayer(line)

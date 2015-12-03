@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6D1E582BD7558CCCA80A8DEE97FFFA3D5C26D74D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6D1E582BD7558CCCA80A8DEE97FFFA3D5C26D74D" : 0,
+    "2ADE6DD5FE3F220904FC8623C0EDE339BC93A3D6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "802BC787-ABB3-4002-92D4-11B4BFE674D1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6D1E582BD7558CCCA80A8DEE97FFFA3D5C26D74D" : "PassCardView\/",
+    "2ADE6DD5FE3F220904FC8623C0EDE339BC93A3D6" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PassCardView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PassCardView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/broccolii\/LoadingView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2ADE6DD5FE3F220904FC8623C0EDE339BC93A3D6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/broccolii\/PassCardView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6D1E582BD7558CCCA80A8DEE97FFFA3D5C26D74D"
+    }
+  ]
+}
